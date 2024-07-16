@@ -455,7 +455,7 @@ video {
 
   font-display: swap;
 
-  src: url("./fonts/Epilogue-VariableFont_wght.ttf") format("truetype");
+  src: url("../fonts/Epilogue-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
@@ -467,7 +467,7 @@ video {
 
   font-display: swap;
 
-  src: url("./fonts/Epilogue-VariableFont_wght.ttf") format("truetype");
+  src: url("../fonts/Epilogue-VariableFont_wght.ttf") format("truetype");
 }
 
 html {
@@ -918,14 +918,14 @@ html {
 
 .dropdown-icon:after {
   position: relative;
-  content:url('./images/icon-arrow-down.svg');
+  content:url('../images/icon-arrow-down.svg');
   top: -2px;
   padding-left: 0.4rem;
 }
 
 .active.dropdown-icon:after {
   position: relative;
-  content:url('./images/icon-arrow-up.svg');
+  content:url('../images/icon-arrow-up.svg');
   top: -2px;
   padding-left: 0.4rem;
 }
